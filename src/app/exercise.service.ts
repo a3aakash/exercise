@@ -14,7 +14,8 @@ const httpOptions = {
 @Injectable({ providedIn: 'root' })
 export class ExerciseService {
 
-  private exercisesUrl = 'api/exercises';  // URL to web api
+  // private exercisesUrl = 'api/exercises';  // URL to web api
+  private exercisesUrl = 'assets/exercises.json';  // URL to web api
 
   constructor(
     private http: HttpClient,
